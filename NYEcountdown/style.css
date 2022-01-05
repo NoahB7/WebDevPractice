@@ -1,0 +1,48 @@
+/* * applies to all */
+* {
+    /* element's width and height are the borders not where the context starts so margins shrink content to make room for margins */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    /* content in page to border of page */
+    margin: 0;
+    background-image: url("cliffs.jpg");
+    background-size: cover; 
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    /* align and just center content */
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -15rem;
+}
+
+.countdown-container{
+    display:flex;
+    /* if page gets squished the containers wrap and items on a line alone are center */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content : center;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    /* 0 on top 2rem left and right margin */
+    margin: 1rem 2rem;
+}
+
+.countdown-element{
+    text-align:center;
+}
+
+.countdown-element span{
+    font-size: 1.5rem;
+}
