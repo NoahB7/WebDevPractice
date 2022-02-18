@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-c {
+  background-color: #EEA47FFF;
+}
+
+.nav-c a {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: #00539CFF;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  font-size: 20px;
+  display: block;
+  padding: 0 1em;
+}
+
+.social {
+  width: 200px;
+  margin-top: 10;
+}
+
+.social li {
+  padding: 20;
+  display: inline;
+}
+
+.aboutme-c {
+  background-color: #00539CFF;
+  height: 800px;
+  padding: 10;
+}
+
+.aboutme-c h1 {
+  text-align: center;
+}
+
+.aboutme-flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.projects-c {
+  background-color: red;
+  height: 800px;
+  padding: 10;
+}
+
+.projects-c h1 {
+  text-align: center;
+}
+
+.resume-c {
+  background-color: #00539CFF;
+  height: 800px;
+  padding: 10;
+}
+
+.resume-c h1 {
+  text-align: center;
+}
+
+.contactme-c {
+  background-color: grey;
+  height: 800px;
+  padding: 10;
+}
+
+.contactme-c h1 {
+  text-align: center;
+}
+
+.big-c {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
